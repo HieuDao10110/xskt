@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="5.0">
+  <display-name>xskt</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ListAccountController</display-name>
+    <servlet-name>ListAccountController</servlet-name>
+    <servlet-class>xskt.controller.ListAccountController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListAccountController</servlet-name>
+    <url-pattern>/ListAccount</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteAccountController</display-name>
+    <servlet-name>DeleteAccountController</servlet-name>
+    <servlet-class>xskt.controller.DeleteAccountController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteAccountController</servlet-name>
+    <url-pattern>/DeleteAccount</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateAccountController</display-name>
+    <servlet-name>UpdateAccountController</servlet-name>
+    <servlet-class>xskt.controller.UpdateAccountController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateAccountController</servlet-name>
+    <url-pattern>/UpdateAccount</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddAccountController</display-name>
+    <servlet-name>AddAccountController</servlet-name>
+    <servlet-class>xskt.controller.AddAccountController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddAccountController</servlet-name>
+    <url-pattern>/AddAccount</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ListLotteryController</display-name>
+    <servlet-name>ListLotteryController</servlet-name>
+    <servlet-class>xskt.controller.ListLotteryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListLotteryController</servlet-name>
+    <url-pattern>/ListLottery</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteLotteryController</display-name>
+    <servlet-name>DeleteLotteryController</servlet-name>
+    <servlet-class>xskt.controller.DeleteLotteryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteLotteryController</servlet-name>
+    <url-pattern>/DeleteLottery</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateLotteryController</display-name>
+    <servlet-name>UpdateLotteryController</servlet-name>
+    <servlet-class>xskt.controller.UpdateLotteryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateLotteryController</servlet-name>
+    <url-pattern>/UpdateLottery</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddLotteryController</display-name>
+    <servlet-name>AddLotteryController</servlet-name>
+    <servlet-class>xskt.controller.AddLotteryController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddLotteryController</servlet-name>
+    <url-pattern>/AddLottery</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ResetPasswordController</display-name>
+    <servlet-name>ResetPasswordController</servlet-name>
+    <servlet-class>xskt.controller.ResetPasswordController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResetPasswordController</servlet-name>
+    <url-pattern>/ResetPassword</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginController</display-name>
+    <servlet-name>LoginController</servlet-name>
+    <servlet-class>xskt.controller.LoginController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginController</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LoginWithFB</display-name>
+    <servlet-name>LoginWithFB</servlet-name>
+    <servlet-class>xskt.controller.fb.LoginWithFB</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginWithFB</servlet-name>
+    <url-pattern>/LoginWithFB</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SignUpController</display-name>
+    <servlet-name>SignUpController</servlet-name>
+    <servlet-class>xskt.controller.SignUpController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignUpController</servlet-name>
+    <url-pattern>/SignUp</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ResetPasswordUserController</display-name>
+    <servlet-name>ResetPasswordUserController</servlet-name>
+    <servlet-class>xskt.controller.ResetPasswordUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResetPasswordUserController</servlet-name>
+    <url-pattern>/ResetPasswordUser</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LogOutController</display-name>
+    <servlet-name>LogOutController</servlet-name>
+    <servlet-class>xskt.controller.LogOutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogOutController</servlet-name>
+    <url-pattern>/LogOut</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ChangePasswordUserController</display-name>
+    <servlet-name>ChangePasswordUserController</servlet-name>
+    <servlet-class>xskt.controller.ChangePasswordUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ChangePasswordUserController</servlet-name>
+    <url-pattern>/ChangePassword</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  <filter-name>RoleFilter</filter-name>
+  <filter-class>xskt.controller.filter.RoleFilter</filter-class>
+</filter>
+
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/admin/*</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/AddAccount</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/AddLottery</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/ListAccount</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/ListLottery</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/DeleteAccount</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/DeleteLottery</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/UpdateAccount</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/UpdateLottery</url-pattern>
+</filter-mapping>
+<filter-mapping>
+  <filter-name>RoleFilter</filter-name>
+  <url-pattern>/ResetPassword</url-pattern>
+</filter-mapping>
+</web-app>
